@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:text="🎯 Cop AutoClicker"
+        android:textSize="26sp"
+        android:textColor="#e94560"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView android:text="1. Overlay İzni:" android:textColor="#ffffff"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnOverlay" android:text="İzin Ver"
+        android:backgroundTint="#e94560"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView android:text="2. Erişilebilirlik İzni:" android:textColor="#ffffff"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnAccessibility" android:text="Erişilebilirliği Aç"
+        android:backgroundTint="#0f3460"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView android:text="Tıklama Hızı (ms):" android:textColor="#ffffff"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etInterval"
+        android:hint="100"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <Button android:id="@+id/btnLaunch" android:text="🚀 AutoClicker'ı Başlat"
+        android:backgroundTint="#e94560"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <TextView android:id="@+id/tvStatus"
+        android:text="Hazır — izinleri ver ve başlat."
+        android:textColor="#aaaaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
